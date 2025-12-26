@@ -19,8 +19,8 @@ spec:
         env:
         - name: REDIS_HOST
           value: "redis"
-        - name: REDIS_PORT  # To nadpisze "magiczny" tekst Kubernetesa
-          value: "6379"    # Musi być w cudzysłowie jako tekst
+        - name: REDIS_PORT
+          value: "6379"
         ports:
         - containerPort: 5050
 ---
